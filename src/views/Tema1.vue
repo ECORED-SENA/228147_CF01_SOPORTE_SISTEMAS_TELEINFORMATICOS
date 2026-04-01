@@ -45,13 +45,16 @@
             p.mb-0 Posibilita que muchos recursos deben estar conectados entre sí, especialmente si muchas personas diferentes en una organización usan el mismo sistema.
           .tarjeta.color-secundario.p-3(x="10%" y="80%" numero="+")
             p #[b Procedimiento]
-            p.mb-0 Describe cómo se procesan y analizan datos y los recursos específicos lo que permite determinar respuestas a diferentes problemáticas a partir de las cuales fue diseñado el sistema (“lógica de negocio”)
+            p.mb-0 Describe cómo se procesan y analizan datos y los recursos específicos, lo que permite determinar respuestas a diferentes problemáticas a partir de las cuales fue diseñado el sistema (“lógica de negocio”).
           .tarjeta.color-secundario.p-3(x="50.6%" y="55.6%" numero="+")
             p #[b Base de datos]
             p.mb-0 Todos los sistemas funcionan con recursos organizados en tablas y archivos.
-    .row.mb-4(data-aos="fade-right")
-      .col-auto.px-4.py-3.bg-c3
-        h3.mb-0 Tipos de sistemas de Información en las organizaciones
+    .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
+      .col-lg-auto
+        figure
+          img(src="@/assets/curso/tema1/img71.png" style="max-width: 60px").m-auto
+      .col
+        h3 Tipos de sistemas de Información en las organizaciones
     p.mb-5(data-aos="fade-right") Existen diferentes tipos de sistemas de información con funciones diferentes los cuales pueden ser utilizados según requerimientos organizacionales, a continuación, se presentan algunos:
     .tarjeta.tarjeta--azul.p-4(data-aos="fade-left")
       SlyderA(tipo="b")
@@ -151,9 +154,12 @@
               img(src='@/assets/curso/tema1/img6.svg', style="width: 50px", alt='Imágen decorativa').m-auto
           .col-md-8.col-xl-7.bg-c5.p-4
             p.text-white.mb-0 #[b Recuerde que el #[i software]] es el conjunto de instrucciones que le dicen al #[i hardware] qué hacer. El #[i software] se puede dividir ampliamente en dos categorías: sistemas operativos y #[i software] de aplicación. Los sistemas operativos administran el #[i hardware] y crean la interfaz entre el #[i hardware] y el usuario. El #[i software] de aplicación es la categoría de programas que hacen algo útil para el usuario.
-    .row.mb-4(data-aos="fade-right")
-      .col-auto.px-4.py-3.bg-c3
-        h3.mb-0 Sistemas operativos
+    .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
+      .col-lg-auto
+        figure
+          img(src="@/assets/curso/tema1/img71.png" style="max-width: 60px").m-auto
+      .col
+        h3 Sistemas operativos
     p.mb-5(data-aos="fade-right") El sistema operativo proporciona varias funciones esenciales, que incluyen:
     .row.bg-c1.mb-5
       .col-12
@@ -174,13 +180,16 @@
                 figure.mb-4
                   img(src='@/assets/curso/tema1/img12.svg', style="width: 140px", alt='Imágen decorativa').m-auto
                 p.text-center.text-white.mb-0 #[b Proporcionar una plataforma para que los desarrolladores de #[i software] escriban aplicaciones.]
-          p.text-center.mb-5(data-aos="fade-down") #[b Para saber más sobre sistemas operativos revise con atención el siguiente recurso:]
+          p.mb-5(data-aos="fade-down") #[b Para saber más sobre sistemas operativos revise con atención el siguiente recurso:]
           figure(data-aos="fade-left")
             .video
               iframe(width="560" height="315" src="https://www.youtube.com/embed/eNG_O4A2Yhs" title="Sistemas operativos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-    .row.mb-4(data-aos="fade-right")
-      .col-auto.px-4.py-3.bg-c3
-        h3.mb-0 Diferencia entre los sistemas operativos Mac vs. Windows
+    .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
+      .col-lg-auto
+        figure
+          img(src="@/assets/curso/tema1/img71.png" style="max-width: 60px").m-auto
+      .col
+        h3 Diferencia entre los sistemas operativos Mac vs. Windows
     .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5(data-aos="fade-left")
       .row.m-0.align-items-center.justify-content-between
         .col-lg-4.mb-4.mb-lg-0
@@ -196,9 +205,12 @@
       .col-lg-3(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema1/img15.svg', style="width: 450px", alt='Imágen decorativa').m-auto
-    .row.mb-4(data-aos="fade-right")
-      .col-auto.px-4.py-3.bg-c3
-        h3.mb-0 ¿Por qué el #[i software] de Microsoft es tan dominante en el mundo de los negocios?
+    .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
+      .col-lg-auto
+        figure
+          img(src="@/assets/curso/tema1/img71.png" style="max-width: 60px").m-auto
+      .col
+        h3 ¿Por qué el #[i software] de Microsoft es tan dominante en el mundo de los negocios?
     figure(data-aos="fade-right")
       img(src='@/assets/curso/tema1/img9.png', style="width: 1200px", alt='Imágen decorativa').m-auto
     .row.justify-content-center.mb-5(data-aos="fade-down")
@@ -209,7 +221,7 @@
         figure
           img(src='@/assets/curso/tema1/img10.png', style="width: 370px", alt='Imágen decorativa').m-auto
       .col-lg-8(data-aos="fade-left")
-        p Casi todas las empresas usaban computadoras centrales IBM en las décadas de 1960 y 1970. Estas mismas empresas se alejaron de las computadoras personales hasta que IBM lanzó la PC en 1981. Cuando los ejecutivos tenían que tomar una decisión sobre la compra de computadoras personales para sus empleados, elegían la ruta segura y compraban IBM. El dicho entonces era: “Nunca despidieron a nadie por comprar IBM”. Entonces, durante la siguiente década, las empresas compraron computadoras personales IBM (o aquellas compatibles con ellas), que ejecutaban un sistema operativo llamado DOS. DOS fueron creados por Microsoft, por lo que cuando Microsoft lanzó Windows como la próxima iteración de DOS, las empresas tomaron la ruta segura y comenzaron a comprar Windows.
+        p Casi todas las empresas usaban computadoras centrales IBM en las décadas de 1960 y 1970. Estas mismas empresas se alejaron de las computadoras personales hasta que IBM lanzó la PC en 1981. Cuando los ejecutivos tenían que tomar una decisión sobre la compra de computadoras personales para sus empleados, elegían la ruta segura y compraban IBM. El dicho entonces era: “Nunca despidieron a nadie por comprar IBM”. Entonces, durante la siguiente década, las empresas compraron computadoras personales IBM (o aquellas compatibles con ellas), que ejecutaban un sistema operativo llamado DOS. DOS fue creado por Microsoft, por lo que cuando Microsoft lanzó Windows como la próxima iteración de DOS, las empresas tomaron la ruta segura y comenzaron a comprar Windows.
         .cajon.color-acento-botones.p-4
           p.mb-0 Microsoft pronto se encontró con el sistema operativo de computadora personal dominante para las empresas. 
     .row.align-items-center.mb-5(data-aos="fade-down")
@@ -218,9 +230,12 @@
           img(src='@/assets/curso/tema1/img1.svg', style="width: 30px", alt='Imágen decorativa').m-auto
       .col
         p.mb-0 A medida que la computadora personal en red comenzó a reemplazar a la computadora central como la forma principal de computación dentro de las empresas, se volvió esencial para Microsoft brindarles a las empresas la capacidad de administrar y proteger sus redes. Microsoft desarrolló productos de servidor de nivel comercial para acompañar sus productos de computadora personal, proporcionando así una solución comercial completa. Y ahora, dice el dicho: “Nadie fue despedido por comprar Microsoft”.
-    .row.mb-4(data-aos="fade-right")
-      .col-auto.px-4.py-3.bg-c3
-        h3.mb-0 #[i Software] de la aplicación
+    .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
+      .col-lg-auto
+        figure
+          img(src="@/assets/curso/tema1/img71.png" style="max-width: 60px").m-auto
+      .col
+        h3 #[i Software] de la aplicación
     .row.justify-content-end.bg-c9.mb-5
       .col-lg-6.bg-c10.shadow-sm.p-5.my-4(data-aos="fade-right")
         p.mb-0 Este #[i software] permite al usuario lograr algún objetivo o propósito. Por ejemplo, si tiene que escribir un artículo, puede usar el programa de #[i software] de aplicación Microsoft Word. Si quieres escuchar música, puedes usar iTunes. Para navegar por la web, puedes usar Internet Explorer o Firefox. Incluso un juego de computadora podría considerarse #[i software] de aplicación.
@@ -235,9 +250,12 @@
           .col-xl-4 
             figure
               img(src='@/assets/curso/tema1/img16.svg', style="width: 380px", alt='Imágen decorativa').m-auto
-    .row.mb-4(data-aos="fade-right")
-      .col-auto.px-4.py-3.bg-c3
-        h3.mb-0 #[i Software] de productividad
+    .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
+      .col-lg-auto
+        figure
+          img(src="@/assets/curso/tema1/img71.png" style="max-width: 60px").m-auto
+      .col
+        h3 #[i Software] de productividad
     p.mb-5(data-aos="fade-right") Junto con la hoja de cálculo, varias otras aplicaciones de #[i software] se han convertido en herramientas estándar para el lugar de trabajo. Estas aplicaciones, denominadas #[i software] de productividad, permiten a los empleados de oficina completar su trabajo diario. Muchas veces, estas aplicaciones vienen empaquetadas juntas, como en el paquete Office de Microsoft. Aquí hay una lista de estas aplicaciones y sus funciones básicas:
     TabsB.color-acento-contenido.mb-5(data-aos="fade-left")
       .py-4.py-md-5(titulo="Procesamiento de textos" :icono="require('@/assets/curso/tema1/img18.svg')")
@@ -277,15 +295,18 @@
         p Este paquete continúa dominando el mercado y la mayoría de las empresas esperan que los empleados sepan cómo usar este #[i software]. Sin embargo, existen muchos competidores de Microsoft Office y son compatibles con los formatos de archivo utilizados por Microsoft. Recientemente, Microsoft ha comenzado a ofrecer una versión web de su paquete de Office.
         .cajon.color-acento-botones.p-4
           p.mb-0 Similar a Google Drive, esta suite permite a los usuarios editar y compartir documentos en línea utilizando tecnología de computación en la nube.
-    .row.mb-4(data-aos="fade-right")
-      .col-auto.px-4.py-3.bg-c3
-        h3.mb-0 #[i Software] de utilidad y #[i software] de programación
+    .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
+      .col-lg-auto
+        figure
+          img(src="@/assets/curso/tema1/img71.png" style="max-width: 60px").m-auto
+      .col
+        h3 #[i Software] de utilidad y #[i software] de programación
     .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-left")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema1/img13.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 Dos subcategorías de #[i software] de aplicación que vale la pena mencionar son el #[i software] de utilidad y el #[i software] de programación, revise a continuación como se define cada uno de ellos.
+        p.mb-0 Dos subcategorías de #[i software] de aplicación que vale la pena mencionar son el #[i software] de utilidad y el #[i software] de programación; revise a continuación cómo se define cada uno de ellos.
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-xl.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
         .crd_hover_txt
@@ -293,8 +314,8 @@
             figure
               img(src="@/assets/curso/tema1/img14.png", alt="alt")
           .crd_hover_txt--body
-            p.text-center #[b #[i Software] de Utilidad]
-            p.text-center.mb-0 Permite reparar o modificar una computadora, por ejemplo, los #[i software] antivirus y #[i software] de desfragmentación de disco. Permiten llenar las deficiencias de los sistemas operativos
+            p.text-center #[b #[i Software] de utilidad]
+            p.text-center.mb-0 Permite reparar o modificar una computadora, por ejemplo, los #[i software] antivirus y #[i software] de desfragmentación de disco. Permiten llenar las deficiencias de los sistemas operativos.
       .col-xl.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
         .crd_hover_txt
           .crd_hover_txt--img
@@ -303,9 +324,12 @@
           .crd_hover_txt--body1
             p.text-center.text-white #[b #[i Software] de programación]
             p.text-center.text-white.mb-0 Su propósito es hacer más #[i software]. La mayoría de estos programas brindan a los programadores un entorno en el que pueden escribir el código, probarlo y convertirlo al formato que luego se puede ejecutar en una computadora.
-    .row.mb-4(data-aos="fade-right")
-      .col-auto.px-4.py-3.bg-c3
-        h3.mb-0 PowerPoint como herramienta
+    .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
+      .col-lg-auto
+        figure
+          img(src="@/assets/curso/tema1/img71.png" style="max-width: 60px").m-auto
+      .col
+        h3 PowerPoint como herramienta
     p(data-aos="fade-right") Este #[i software] de presentación ha ganado aceptación como el método principal para presentar información formalmente en un entorno empresarial, el arte de dar una presentación atractiva se está volviendo raro. Muchos presentadores ahora solo leen las viñetas en la presentación e inmediatamente aburren a los asistentes, quienes ya pueden leerlo por sí mismos.
     .row.align-items-center.mb-5
       .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
@@ -315,9 +339,12 @@
       .col-lg-5(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema1/img16.png', style="width: 450px", alt='Imágen decorativa').m-auto
-    .row.mb-4(data-aos="fade-right")
-      .col-auto.px-4.py-3.bg-c3
-        h3.mb-0 Barra lateral: Soy dueño de este #[i software], ¿verdad? Bueno
+    .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
+      .col-lg-auto
+        figure
+          img(src="@/assets/curso/tema1/img71.png" style="max-width: 60px").m-auto
+      .col
+        h3 Barra lateral: Soy dueño de este #[i software], ¿verdad? Bueno
     .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-right")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema1/img17.png')})`}"
@@ -327,9 +354,12 @@
     .row.bg-c11.mb-5
       .col-lg-6.bg-c10.shadow-sm.p-5.my-4(data-aos="fade-right")
         p.mb-0 En su mayor parte, estas restricciones son lo que esperaría: no puede hacer copias ilegales del #[i software] y no puede usarlo para hacer nada ilegal. Sin embargo, existen otros términos más inesperados en estos acuerdos de #[i software]. Por ejemplo, muchos acuerdos de #[i software] le piden que acepte un límite de responsabilidad. Nuevamente, de Microsoft: Limitación y exclusión de daños. Puede recuperar de Microsoft y sus proveedores solo los daños directos hasta el monto que pagó por el #[i software]. No puede recuperar ningún otro daño, incluidos daños consecuentes, pérdida de ganancias, daños especiales, indirectos o incidentales. Lo que esto significa es que, si un problema con el #[i software] causa daño a su empresa, no puede responsabilizar a Microsoft ni al proveedor por los daños.
-    .row.mb-4(data-aos="fade-right")
-      .col-auto.px-4.py-3.bg-c3
-        h3.mb-0 Aplicaciones para la Empresa
+    .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
+      .col-lg-auto
+        figure
+          img(src="@/assets/curso/tema1/img71.png" style="max-width: 60px").m-auto
+      .col
+        h3 Aplicaciones para la empresa
     .row.align-items-center.mb-5
       .col-lg-3.mb-4.mb-lg-0(data-aos="fade-right")
         figure
@@ -337,9 +367,12 @@
       .col-lg-9(data-aos="fade-left")
         .cajon.color-primario.p-4
           p.mb-0 A medida que la computadora personal proliferaba dentro de las organizaciones, el control sobre la información generada por la organización comenzó a fragmentarse. Digamos que el departamento de servicio al cliente crea una base de datos de clientes para realizar un seguimiento de las llamadas y los informes de problemas, y el departamento de ventas también crea una base de datos para realizar un seguimiento de la información del cliente. ¿Cuál debe utilizarse como lista maestra de clientes? Como otro ejemplo, alguien en ventas podría crear una hoja de cálculo para calcular los ingresos por ventas, mientras que alguien en finanzas crea una diferente que satisfaga las necesidades de su departamento. Sin embargo, es probable que las dos hojas de cálculo presenten diferentes totales de ingresos. ¿Cuál es el correcto? ¿Y quién gestiona toda esta información?
-    .row.mb-4(data-aos="fade-right")
-      .col-auto.px-4.py-3.bg-c3
-        h3.mb-0 Planificación de recursos empresariales
+    .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
+      .col-lg-auto
+        figure
+          img(src="@/assets/curso/tema1/img71.png" style="max-width: 60px").m-auto
+      .col
+        h3 Planificación de recursos empresariales
     .row.align-items-center.mb-5
       .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
         p.mb-0 En la década de 1990, se hizo más evidente la necesidad de volver a poner la información de la organización bajo un control centralizado. El sistema de planificación de recursos empresariales (ERP) (a veces llamado simplemente #[i software] empresarial) se desarrolló para reunir a toda una organización en una aplicación de #[i software]. En pocas palabras, un sistema ERP es una aplicación de #[i software] que utiliza una base de datos central que se implementa en toda la organización. Echemos un vistazo más de cerca a esta definición:
@@ -394,13 +427,13 @@
       .col-lg-8.bg-c15(data-aos="fade-down")
         .p-4
           p.mb-0.mt-4 Un sistema de gestión de relaciones con los clientes (CRM) es una aplicación de #[i software] diseñada para gestionar los clientes de una organización. En el entorno actual, es importante desarrollar relaciones con sus clientes, y el uso de un CRM bien diseñado puede permitir que una empresa personalice su relación con cada uno de sus clientes. Algunos sistemas de #[i software]  ERP incluyen módulos CRM. Un ejemplo de un paquete de CRM muy conocido es <i>Salesforce</i>.
-
-    .row.mb-4(data-aos="fade-right")
-      .col-auto.px-4.py-3.bg-c3
-        h3.mb-0 Gestión de la cadena de suministro
-
+    .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
+      .col-lg-auto
+        figure
+          img(src="@/assets/curso/tema1/img71.png" style="max-width: 60px").m-auto
+      .col
+        h3 Gestión de la cadena de suministro
     p.mb-5 Muchas organizaciones deben afrontar la compleja tarea de gestionar sus cadenas de suministro, aclaremos un poco dicho término:
-
     .row.justify-content-center.mb-5(data-aos="fade-left")
       .col-lg-10
         .row.justify-content-center.align-items-center
@@ -412,13 +445,14 @@
               img(src='@/assets/curso/tema1/img6.svg', style="width: 50px", alt='Imágen decorativa').m-auto
           .col-md-8.col-xl-7.bg-c5.p-5
             p.text-white.mb-0 Es el proceso que da entre diferentes eslabones de en un proceso de producción, proveedores instalaciones de fabricación, distribuidores de los productos, los cuales trabajan en pro de garantizar la satisfacción del cliente.
-
-
     .cajon.color-primario.p-4.mb-5(data-aos="fade-right")
       p.mb-0 Un sistema de gestión de la cadena de suministro (SCM) gestiona la interconexión entre estos eslabones, así como el inventario de los productos en sus distintas etapas de desarrollo.
-    .row.mb-4(data-aos="fade-right")
-      .col-auto.px-4.py-3.bg-c3
-        h3.mb-0 Aplicaciones móviles
+    .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
+      .col-lg-auto
+        figure
+          img(src="@/assets/curso/tema1/img71.png" style="max-width: 60px").m-auto
+      .col
+        h3 Aplicaciones móviles
     .row.align-items-center.mb-5
       .col-lg-3.mb-4.mb-lg-0(data-aos="fade-right")
         figure
@@ -432,9 +466,12 @@
       )
       .bloque-texto-g__texto.p-4
         p.mb-0 Sabía que, actualmente, la mayoría de los dispositivos móviles funcionan con uno de dos sistemas operativos, Android o iOS. Android es un sistema operativo de código abierto comprado y respaldado por Google; iOS es el sistema operativo móvil de Apple. En el cuarto trimestre de 2012, Android se instaló en el 70,1 % de todos los teléfonos móviles enviados, seguido del 21,0 % para iOS. Otros sistemas operativos móviles a destacar son BlackBerry (3,2%) y Windows (2,6%).
-    .row.mb-4(data-aos="fade-right")
-      .col-auto.px-4.py-3.bg-c3
-        h3.mb-0 Computación en la nube
+    .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
+      .col-lg-auto
+        figure
+          img(src="@/assets/curso/tema1/img71.png" style="max-width: 60px").m-auto
+      .col
+        h3 Computación en la nube
     p(data-aos="fade-right") Históricamente, para que un #[i software] funcionara se tenía que instalar una copia individual de este en la computadora, sin embargo, el concepto de computación en la “nube” cambia todo, “la nube” hace referencia a aplicaciones, servicios y almacenamiento de datos que están conectados a través de protocolos de Internet. La computación en la nube es el uso de estos servicios por parte de individuos y organizaciones.
     .row.align-items-start.mb-5
       .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
@@ -443,26 +480,33 @@
       .col-lg-8(data-aos="fade-left")
         p.mb-0 Si se accede al correo electrónico a través de un navegador web, se está utilizando una forma de computación en la nube. Si se utilizan las aplicaciones de Google Drive, se está utilizando la computación en la nube. Si bien estas son versiones gratuitas de computación en la nube, existe un gran negocio al proporcionar aplicaciones y almacenamiento de datos a través de la web.
     p.text-center.mb-5(data-aos="fade-right") #[b A continuación, se describen algunas ventajas y desventajas de la computación en la nube:]
-
     figure.mb-5(data-aos="fade-left")
       img(src='@/assets/curso/tema1/img37.svg', style="width: 1150px", alt='Ventajas a. No hay “software” para instalar o actualizaciones para mantener. b. Disponible desde cualquier computadora que tenga acceso a Internet. c. Puede escalar a una gran cantidad de usuarios fácilmente. d. Las nuevas aplicaciones pueden estar listas y funcionando muy rápidamente. e. Los servicios se pueden arrendar por un tiempo limitado según sea necesario. f. Su información no se pierde si su disco duro falla o si le roban su computadora portátil. g. No está limitado por la memoria disponible o el espacio en disco de su computadora. Desventajas a. Su información se almacena en la computadora de otra persona, ¿qué tan segura es? b. Se debe tener acceso a Internet para usarlo. Si no se tienes acceso, es imposible acceder a la información. c. Está confiando en un tercero para proporcionar estos servicios, en muchos casos se requiere de un proveedor para solucionar los problemas que pueden presentarse.').m-auto
-    
     .row.align-items-center.mb-5
       .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema1/img21.png', style="width: 400px", alt='Imágen decorativa').m-auto
       .col-lg-8(data-aos="fade-left")
-        .row.mb-4
-          .col-auto.px-4.py-3.bg-c3
-            h3.mb-0 Uso de una nube privada
-        p.mb-5 Es comprensible que muchas organizaciones estén nerviosas por ceder el control de sus datos y algunas de sus aplicaciones mediante el uso de la computación en la nube. Una solución a este problema radica en el concepto de nube privada en la cual proveedor de servicios en la nube brinda un espacio del servidor web para que determinada organización tenga gran control sobre ese espacio del servidor.
-        .row.mb-4
-          .col-auto.px-4.py-3.bg-c3
-            h3.mb-0 Virtualización
+        .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
+          .col-lg-auto
+            figure
+              img(src="@/assets/curso/tema1/img71.png" style="max-width: 60px").m-auto
+          .col
+            h3 Uso de una nube privada
+        p.mb-5 Es comprensible que muchas organizaciones estén nerviosas por ceder el control de sus datos y algunas de sus aplicaciones mediante el uso de la computación en la nube. Una solución a este problema radica en el concepto de nube privada, en la cual un proveedor de servicios en la nube brinda un espacio del servidor web para que determinada organización tenga gran control sobre ese espacio del servidor.
+        .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
+          .col-lg-auto
+            figure
+              img(src="@/assets/curso/tema1/img71.png" style="max-width: 60px").m-auto
+          .col
+            h3 Virtualización
         p.mb-0 La virtualización es el proceso de usar #[i software] para simular una computadora o algún otro dispositivo. Por ejemplo, usando la virtualización, una sola computadora puede realizar las funciones de varias computadoras. Empresas como EMC proporcionan #[i software] de virtualización que permite a los proveedores de servicios en la nube proporcionar servidores web a sus clientes de manera rápida y eficiente. Las organizaciones también están implementando la virtualización para reducir la cantidad de servidores necesarios para brindar sus servicios.
-    .row.mb-4(data-aos="fade-right")
-      .col-auto.px-4.py-3.bg-c3
-        h3.mb-0 Creación de #[i software]
+    .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
+      .col-lg-auto
+        figure
+          img(src="@/assets/curso/tema1/img71.png" style="max-width: 60px").m-auto
+      .col
+        h3 Creación de #[i software]
     p(data-aos="fade-down") ¿Cómo se crea el #[i software]? Si el #[i software] es el conjunto de instrucciones que le dice al #[i hardware] qué hacer, ¿cómo se escriben estas instrucciones? Si una computadora lee todo como unos y ceros, ¿tenemos que aprender a escribir #[i software] de esa manera?
     .row.align-items-center.mb-0.mb-lg-5
       .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
@@ -483,9 +527,12 @@
               img(src='@/assets/curso/tema1/img6.svg', style="width: 50px", alt='Imágen decorativa').m-auto
           .col-md-8.col-xl-7.bg-c5.p-4
             p.text-white.mb-0 La programación de #[i software] era originalmente un proceso individual, con cada programador trabajando en un programa completo, o varios programadores trabajando cada uno en una parte de un programa más grande. Sin embargo, los métodos más nuevos de desarrollo de #[i software] incluyen un enfoque más colaborativo, con equipos de programadores que trabajan juntos en el código.
-    .row.mb-4(data-aos="fade-right")
-      .col-auto.px-4.py-3.bg-c3
-        h3.mb-0 #[i Software] de código abierto
+    .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
+      .col-lg-auto
+        figure
+          img(src="@/assets/curso/tema1/img71.png" style="max-width: 60px").m-auto
+      .col
+        h3 #[i Software] de código abierto
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-left")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema1/img23.png')})`}"
@@ -500,10 +547,13 @@
       .col-lg-4(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema1/img24.png', style="width: 380px", alt='Imágen decorativa').m-auto
-    .row.mb-4(data-aos="fade-right")
-      .col-auto.px-4.py-3.bg-c3
-        h3.mb-0 Pero ¿Qué es el #[i software] de código abierto?
-    p.mb-5(data-aos="fade-right") Es un #[i software] que hace que el código fuente esté disponible para que cualquiera pueda copiarlo y usarlo. Este puede estar disponible en un formato compilado que simplemente se puede descargar e instalar
+    .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
+      .col-lg-auto
+        figure
+          img(src="@/assets/curso/tema1/img71.png" style="max-width: 60px").m-auto
+      .col
+        h3 Pero, ¿Qué es el #[i software] de código abierto?
+    p.mb-5(data-aos="fade-right") Es un #[i software] que hace que el código fuente esté disponible para que cualquiera pueda copiarlo y usarlo. Este puede estar disponible en un formato compilado que simplemente se puede descargar e instalar.
     figure.mb-5(data-aos="fade-left")
       img(src='@/assets/curso/tema1/img25.png', style="width: 1150px", alt='Imágen decorativa').m-auto
     p.mb-5(data-aos="fade-right") El movimiento de código abierto ha llevado al desarrollo del #[i software] más utilizado en el mundo, incluido el navegador Firefox, el sistema operativo Linux y el servidor web Apache.
@@ -652,9 +702,12 @@
                     .col-lg-4
                       figure
                         img(src='@/assets/curso/tema1/img49.svg', style="width: 450px", alt='Imágen decorativa').m-auto
-    .row.mb-4(data-aos="fade-right")
-      .col-auto.px-4.py-3.bg-c3
-        h3.mb-0 Funciones TI en una organización
+    .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
+      .col-lg-auto
+        figure
+          img(src="@/assets/curso/tema1/img71.png" style="max-width: 60px").m-auto
+      .col
+        h3 Funciones TI en una organización
     .row.align-items-center.mb-5
       .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
         p.mb-0 Con las computadoras y las redes informáticas, las personas han podido lograr en el lapso de unas pocas décadas lo que de otro modo nos hubiera llevado muchos siglos lograr. La gente ha democratizado Internet, ha mejorado enormemente la comunicación, ha aumentado la capacidad de diseñar e inventar por múltiples y ha hecho la vida más fácil en general. Ahora las personas llevan pequeños dispositivos informáticos en sus bolsillos que brindan asistencia en casi todos los aspectos de la vida, ya sea para despertarlos por la mañana, recordarles eventos importantes o ayudarnos a pensar y aprender nueva información.
@@ -687,9 +740,12 @@
                   a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/funciones_TI_en_una_organizacion.pdf')" target="_blank")
                     span(style="color:#000 !important") Descargar
                     i.fas.fa-file-download(style="color:#000 !important")
-    .row.mb-4(data-aos="fade-right")
-      .col-auto.px-4.py-3.bg-c3
-        h3.mb-0 Tecnología de la información y sus usos en la gestión empresarial
+    .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
+      .col-lg-auto
+        figure
+          img(src="@/assets/curso/tema1/img71.png" style="max-width: 60px").m-auto
+      .col
+        h3 Tecnología de la información y sus usos en la gestión empresarial
     .row.align-items-center.mb-5
       .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
         .cajon.color-primario.p-4.mb-3
@@ -821,18 +877,18 @@
         .p-5
           figure
             img(src='@/assets/curso/tema1/img66.svg', alt='1)	Comunicación: use la tecnología para integrar la comunicación dentro de su organización. 2)	Uso de plataformas: deje que sus empleados estén en sintonía entre sí, utilizando cosas como plataformas de colaboración y redes sociales para mantener a todos informados sobre lo que sucede en el negocio y hacia dónde se dirige. De esa manera, estarán sincronizados con los objetivos del negocio y su productividad mejorará significativamente. 3)	Servicio al cliente: utilice la tecnología para mejorar el servicio que brinda a sus clientes, permitiéndoles brindarle comentarios sobre sus productos y servicios, así como sugerencias sobre lo que puede mejorar. 4)	Seguridad: con la mejora de los estándares de seguridad, también puede eliminar las contraseñas por completo y probar los sistemas de seguridad biométricos, que no requieren que recuerde una docena de contraseñas a la vez.').m-auto
-
-    .row.mb-4(data-aos="fade-right")
-      .col-auto.px-4.py-3.bg-c3
-        h3.mb-0 Formas efectivas de comunicación organizacional
-
+    .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
+      .col-lg-auto
+        figure
+          img(src="@/assets/curso/tema1/img71.png" style="max-width: 60px").m-auto
+      .col
+        h3 Formas efectivas de comunicación organizacional
     .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-right")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema1/img69.png')})`}"
       )
       .bloque-texto-g__texto.p-4
         p.mb-0 Las diferentes situaciones comerciales y las diferentes necesidades de los empleados exigen el uso de múltiples canales de comunicación para llevar los mensajes a casa de manera efectiva. Una comprensión de los beneficios de varios tipos de comunicación organizacional puede ayudar a los empresarios a comunicarse de manera más efectiva, revíselos a continuación:
-
     .tarjeta.tarjeta--azul2.mb-5(data-aos="fade-right")
       .p-4
         SlyderA(tipo="b")
@@ -890,23 +946,26 @@
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul1")
           .row(titulo="Desarrollo teléfono celular")
             .col-12
-              p.mb-0 Uno de los mayores avances en la comunicación ha sido el desarrollo del teléfono celular. En el pasado, su única oportunidad de comunicarse con los empleados era cuando estaban en sus escritorios, lo que provocaba interminables juegos de "etiquetas telefónicas" cuando las personas intentaban conectarse durante los días de trabajo ocupados. Ahora, se puede contactar a los trabajadores sin importar dónde se encuentren, e incluso fuera del horario laboral. El desarrollo de los teléfonos inteligentes también ha ampliado en gran medida los tipos de actividades comerciales que puede realizar cuando está fuera de la oficina, aumentando la productividad y extendiendo la jornada laboral.
+              p.mb-0.ms-5 Uno de los mayores avances en la comunicación ha sido el desarrollo del teléfono celular. En el pasado, su única oportunidad de comunicarse con los empleados era cuando estaban en sus escritorios, lo que provocaba interminables juegos de "etiquetas telefónicas" cuando las personas intentaban conectarse durante los días de trabajo ocupados. Ahora, se puede contactar a los trabajadores sin importar dónde se encuentren, e incluso fuera del horario laboral. El desarrollo de los teléfonos inteligentes también ha ampliado en gran medida los tipos de actividades comerciales que puede realizar cuando está fuera de la oficina, aumentando la productividad y extendiendo la jornada laboral.
           .row(titulo="Dispositivos de comunicación")
             .col-12
-              p.mb-0 Por supuesto, los teléfonos no son los únicos dispositivos de comunicación de alta tecnología. Las computadoras vienen en una amplia variedad de configuraciones en estos días, incluidas tabletas, computadoras portátiles pequeñas pero potentes, dispositivos 2 en 1 que sirven como computadora portátil o tableta, y otras variaciones. Todos estos dispositivos tienen capacidades inalámbricas incorporadas y también se pueden configurar con comunicaciones móviles, lo que los convierte, en esencia, en teléfonos celulares grandes. Cualquiera que sea el dispositivo que lleve una persona de negocios, facilita las comunicaciones verbales, de texto y de imágenes.
+              p.mb-0.ms-5 Por supuesto, los teléfonos no son los únicos dispositivos de comunicación de alta tecnología. Las computadoras vienen en una amplia variedad de configuraciones en estos días, incluidas tabletas, computadoras portátiles pequeñas pero potentes, dispositivos 2 en 1 que sirven como computadora portátil o tableta, y otras variaciones. Todos estos dispositivos tienen capacidades inalámbricas incorporadas y también se pueden configurar con comunicaciones móviles, lo que los convierte, en esencia, en teléfonos celulares grandes. Cualquiera que sea el dispositivo que lleve una persona de negocios, facilita las comunicaciones verbales, de texto y de imágenes.
           .row(titulo="Teleconferencia")
             .col-12
-              p.mb-0 Las conexiones de datos de alta velocidad permiten el uso de teleconferencias, reuniones virtuales realizadas a través de enlaces de audio y video. Las teleconferencias pueden ahorrar cantidades sustanciales de dinero que de otro modo se gastarían en viajes al conectar a empleados importantes en sucursales remotas para compartir ideas e información. El uso de pizarras virtuales, plataformas comunitarias de intercambio de datos donde los usuarios remotos pueden interactuar como si estuvieran alrededor de la misma mesa, aumenta aún más las posibilidades del lugar de trabajo virtual.
+              p.mb-0.ms-5 Las conexiones de datos de alta velocidad permiten el uso de teleconferencias, reuniones virtuales realizadas a través de enlaces de audio y video. Las teleconferencias pueden ahorrar cantidades sustanciales de dinero que de otro modo se gastarían en viajes al conectar a empleados importantes en sucursales remotas para compartir ideas e información. El uso de pizarras virtuales, plataformas comunitarias de intercambio de datos donde los usuarios remotos pueden interactuar como si estuvieran alrededor de la misma mesa, aumenta aún más las posibilidades del lugar de trabajo virtual.
           .row(titulo="Escaneo de imágenes")
             .col-12
-              p.mb-0 Permiten a los trabajadores convertir documentos, planos, diagramas y fotografías en archivos electrónicos rápidamente para su almacenamiento y transmisión. En lugar de depender de la entrega en mano de documentos importantes en toda la ciudad o en todo el país, los empleados pueden escanear y enviar estos archivos en cuestión de segundos a través de Internet. Un estudio de arquitectura podría, por ejemplo, escanear actualizaciones de un plano, transmitirlo al cliente, recibir cambios y realizar modificaciones, todo antes de que un mensajero hubiera podido cruzar la ciudad por primera vez.
+              p.mb-0.ms-5 Permiten a los trabajadores convertir documentos, planos, diagramas y fotografías en archivos electrónicos rápidamente para su almacenamiento y transmisión. En lugar de depender de la entrega en mano de documentos importantes en toda la ciudad o en todo el país, los empleados pueden escanear y enviar estos archivos en cuestión de segundos a través de Internet. Un estudio de arquitectura podría, por ejemplo, escanear actualizaciones de un plano, transmitirlo al cliente, recibir cambios y realizar modificaciones, todo antes de que un mensajero hubiera podido cruzar la ciudad por primera vez.
           .row(titulo="Etiquetas por radiofrecuencia")
             .col-12
-              p.mb-0 El desarrollo de la identificación por radiofrecuencia (RFID) ha cambiado sustancialmente el campo de la logística comercial y, junto con otros avances en comunicación comercial, tiene el potencial de aumentar significativamente la eficiencia de una empresa. Las etiquetas RFID son pequeños chips que responden a las ondas de radio con información codificada, lo que permite a las empresas etiquetar y rastrear artículos y materiales. Cuando un empleado activa un dispositivo de escaneo, todas las etiquetas RFID dentro del alcance responderán con su información codificada, lo que permite actualizaciones rápidas de los inventarios del almacén y seguimiento en tiempo real de los envíos a medida que pasan por la cadena de suministro. Poder acceder al inventario ha pedido permite a las empresas aprovechar el envío "justo a tiempo".
-    .row.mb-4(data-aos="fade-right")
-      .col-auto.px-4.py-3.bg-c3
-        h3.mb-0 ¿Cómo usar las herramientas informáticas de manera adecuada?
-    p.mb-5(data-aos="fade-right") Usar correctamente, las herramientas informáticas pueden ayudar a la empresa a ser más organizada y mucho más eficiente, a continuación, algunas estrategias:
+              p.mb-0.ms-5 El desarrollo de la identificación por radiofrecuencia (RFID) ha cambiado sustancialmente el campo de la logística comercial y, junto con otros avances en comunicación comercial, tiene el potencial de aumentar significativamente la eficiencia de una empresa. Las etiquetas RFID son pequeños chips que responden a las ondas de radio con información codificada, lo que permite a las empresas etiquetar y rastrear artículos y materiales. Cuando un empleado activa un dispositivo de escaneo, todas las etiquetas RFID dentro del alcance responderán con su información codificada, lo que permite actualizaciones rápidas de los inventarios del almacén y seguimiento en tiempo real de los envíos a medida que pasan por la cadena de suministro. Poder acceder al inventario ha pedido permite a las empresas aprovechar el envío "justo a tiempo".
+    .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
+      .col-lg-auto
+        figure
+          img(src="@/assets/curso/tema1/img71.png" style="max-width: 60px").m-auto
+      .col
+        h3 ¿Cómo usar las herramientas informáticas de manera adecuada?
+    p.mb-5(data-aos="fade-right") Usar correctamente las herramientas informáticas puede ayudar a la empresa a ser más organizada y mucho más eficiente; a continuación, algunas estrategias:
     .row.justify-content-center
       .col-lg-8(data-aos="fade-left")
         .tarjeta.color-primario.p-3
@@ -921,7 +980,7 @@
                   a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/estrategias_para_implementar.pdf')" target="_blank")
                     span(style="color:#000 !important") Descargar
                     i.fas.fa-file-download(style="color:#000 !important")
-      
+
 </template>
 
 <script>

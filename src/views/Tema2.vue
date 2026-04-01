@@ -126,9 +126,12 @@
             img(src='@/assets/curso/tema2/img4.svg', style="width: 170px", alt='Imágen decorativa').m-auto
           p.text-center.text-white #[b Paquetes horizontales]
           p.text-center.text-white Pueden realizar una determinada función general, como contabilidad o automatización de oficinas, para una variedad de negocios.
-    .row.mb-4(data-aos="fade-right")
-      .col-auto.px-4.py-3.bg-c3
-        h3.mb-0 Sistemas operativos
+    .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
+      .col-lg-auto
+        figure
+          img(src="@/assets/curso/tema1/img71.png" style="max-width: 60px").m-auto
+      .col
+        h3 Sistemas operativos
     .row.align-items-center.mb-5
       .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
@@ -209,7 +212,7 @@
                         img(src='@/assets/curso/tema2/img12.png', style="width: 450px", alt='Imágen decorativa').m-auto
                   .row.m-1
                     .col-lg-8.mb-4.mb-lg-0
-                      p.txt-c1.fs-5 #[b Sistemas operativos computadoras personales]
+                      p.txt-c1.fs-5 #[b Sistemas operativos de computadoras personales]
                       p Los sistemas operativos de las computadoras personales que están dedicadas a un solo usuario son mucho más simples que los sistemas operativos que ejecutan máquinas más grandes, a las que cientos o miles de usuarios pueden tener acceso simultáneo. Una capacidad importante que puede ofrecer un sistema operativo en un entorno informático personal es la multitarea: la capacidad de ejecutar varias tareas a la vez en nombre de un usuario.
                     .col-lg-4
                       figure
@@ -283,9 +286,12 @@
                     .col-lg-4
                       figure
                         img(src='@/assets/curso/tema2/img15.png', style="width: 450px", alt='Imágen decorativa').m-auto
-    .row.mb-4(data-aos="fade-right")
-      .col-auto.px-4.py-3.bg-c3
-        h3.mb-0 Interfaz de usuario
+    .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
+      .col-lg-auto
+        figure
+          img(src="@/assets/curso/tema1/img71.png" style="max-width: 60px").m-auto
+      .col
+        h3 Interfaz de usuario
     .row.bg-c1
       .col-12
         .px-5
@@ -294,7 +300,7 @@
           .row.justify-content-center.mb-5(data-aos="fade-down")
             .col-lg-10.bg-c2.shadow-sm.p-4
               p.mb-0 Una interfaz de usuario es una combinación de medios por los cuales un usuario interactúa con el sistema informático. Permite que el usuario final se comunique con el sistema operativo para que pueda cargar programas, acceder a archivos y realizar otras tareas.
-          .row.mb-5
+          .row.justify-content-center
             .col-lg-7
               p Los tres tipos principales de interfaces de usuario son:
               .row.mb-4
@@ -309,9 +315,12 @@
             .col-lg-3
               figure
                 img(src='@/assets/curso/tema2/img7.svg', style="width: 350px", alt='Imágen decorativa').m-auto
-          .row.mb-4(data-aos="fade-right")
-            .col-auto.px-4.py-3.bg-c3
-              h3.mb-0 El objetivo de los sistemas abiertos
+          .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
+            .col-lg-auto
+              figure
+                img(src="@/assets/curso/tema1/img71.png" style="max-width: 60px").m-auto
+            .col
+              h3 El objetivo de los sistemas abiertos
           .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-left")
             .bloque-texto-g__img(
               :style="{'background-image': `url(${require('@/assets/curso/tema2/img17.png')})`}"
@@ -328,9 +337,12 @@
             p.mb-0 #[b Figura 1]. Características del sistema abierto
           figure
             img(src='@/assets/curso/tema2/img8.svg', style="width: 1150px", alt='La imagen muestra las características del sistema abierto, entre las que se encuentran: Portabilidad: se puede mover de un sistema informático a otro. Interoperabilidad: significa que las máquinas de varios proveedores y capacidades pueden trabajar juntas para producir la información necesaria. Escalabilidad: es aquella que se puede mover sin una repr5ogramación significativa').m-auto
-    .row.mb-4(data-aos="fade-right")
-      .col-auto.px-4.py-3.bg-c3
-        h3.mb-0 #[i Software] de productividad personal
+    .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
+      .col-lg-auto
+        figure
+          img(src="@/assets/curso/tema1/img71.png" style="max-width: 60px").m-auto
+      .col
+        h3 #[i Software] de productividad personal
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-down")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema2/img18.png')})`}"
@@ -408,9 +420,12 @@
                 .col-lg-6
                   p #[b Los hipermedios]
                   p Son documentos electrónicos que contienen múltiples formas de medios, incluidos texto, gráficos, video, mensajes de voz u otras unidades de información, como hojas de trabajo. En el método hipermedia de entrega de información, se pueden establecer vínculos entre varios elementos en un gran documento multimedia. Estos enlaces permiten al usuario pasar de un tema directamente a otro relacionado, en lugar de escanear la información de manera secuencial. El hipertexto es una metodología para la construcción y uso interactivo de bases de datos de texto. Por definición, el hipertexto contiene solo texto y una cantidad limitada de gráficos.
-    .row.mb-4(data-aos="fade-right")
-      .col-auto.px-4.py-3.bg-c3
-        h3.mb-0 Gestión de información personal
+    .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
+      .col-lg-auto
+        figure
+          img(src="@/assets/curso/tema1/img71.png" style="max-width: 60px").m-auto
+      .col
+        h3 Gestión de información personal
     .row.align-items-center.mb-5
       .col-auto(data-aos="fade-right")
         figure
@@ -519,12 +534,10 @@
               i.fas.fa-check-circle(style="color: #4ADBD1")
               |
               p.text-white.mb-0 Son posibles 4 formas de procesamiento de la información: consulta, organización, actualización y  creación de nueva información.
-    
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-5
         .tarjeta-naranja-borde.p-2.justify-content-center.mb-4
           h5.mb-0.text-center Esta información puede provenir de dos fuentes distintas:
-
     .row.bg-c22.mb-5(data-aos="fade-right")
       .col-12
         .px-5
@@ -545,18 +558,24 @@
                 .crd_hover_txt--body1
                   p.text-center.text-white #[b Fuente externa]
                   p.text-center.text-white.mb-0 Este es el flujo de información generado por partes interesadas externas a la empresa (clientes, proveedores, Estado, etc.) y que son esenciales para anticipar cambios y adaptar los SI para servir a la organización. Al establecer un monitoreo (tecnológico, social, legal, comercial, etc.), la empresa se da cuenta de que es fundamental para ella estar particularmente atenta a la información de fuentes externas.
-    .row.mb-4(data-aos="fade-right")
-      .col-auto.px-4.py-3.bg-c3
-        h3.mb-0 Memorización de la información
+    .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
+      .col-lg-auto
+        figure
+          img(src="@/assets/curso/tema1/img71.png" style="max-width: 60px").m-auto
+      .col
+        h3 Memorización de la información
     .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-left")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema2/img28.png')})`}"
       )
       .bloque-texto-g__texto.p-4
         p.mb-0 Una vez recolectada e ingresada, la información debe almacenarse de manera duradera, estable y segura para que pueda ser utilizada posteriormente o simplemente para cumplir con obligaciones legales. Para organizar el almacenamiento de la información, se implementan medios técnicos y organizativos tales como métodos de archivo, técnicas de respaldo, protección contra la piratería o métodos para evitar la destrucción de datos. Como la información es valiosa, es imperativo que SI la asegure bien.
-    .row.mb-4(data-aos="fade-right")
-      .col-auto.px-4.py-3.bg-c3
-        h3.mb-0 Organización de almacenamiento
+    .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
+      .col-lg-auto
+        figure
+          img(src="@/assets/curso/tema1/img71.png" style="max-width: 60px").m-auto
+      .col
+        h3 Organización de almacenamiento
     .row.align-items-center.mb-5
       .col-lg-3.mb-4.mb-lg-0(data-aos="fade-right")
         figure
@@ -564,19 +583,24 @@
       .col-lg-9(data-aos="fade-left")
         .cajon.color-primario.p-4
           p.mb-0 Por lo tanto, la información se recopila y almacena en archivos o en lo que se denomina una base de datos (o BDD). El archivo es una colección, un conjunto de datos reunidos bajo el mismo nombre. Técnicamente, es información digital compuesta por una secuencia de bytes, es decir, una secuencia de números. La base de datos (BDD) es una estructura de almacenamiento de información que toma la forma de grandes tablas, como una tabla de Excel. Cada columna se utiliza para ordenar un tipo de datos y cada fila representa un registro y, por ende, puede encontrar en la columna el número del contacto, su nombre, su nombre, su función y su número de teléfono. Cada línea representa un registro.
-    .row.mb-4(data-aos="fade-right")
-      .col-auto.px-4.py-3.bg-c3
-        h3.mb-0 Zona de almacenamiento
+    .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
+      .col-lg-auto
+        figure
+          img(src="@/assets/curso/tema1/img71.png" style="max-width: 60px").m-auto
+      .col
+        h3 Zona de almacenamiento
     p.mb-5(data-aos="fade-right") Finalmente, todos los archivos y bases de datos deben almacenarse. Se pueden encontrar las siguientes zonas de almacenamiento:
     .row.bg-c26.mb-5(data-aos="fade-down")
       .col-12
         .px-5.pb-5.pt-1
           figure
             img(src='@/assets/curso/tema2/img11.svg', style="width: 1150px", alt='Directamente en los discos duros de los servidores SI de la organización. En este contexto, la información solo es accesible desde este servidor. En la Nube. En este contexto, la información es accesible desde cualquier parte del mundo.	En áreas de almacenamiento dentro del SI de la organización. Estos son discos duros muy grandes accesibles a través de la red corporativa. En este contexto, la información es accesible desde todos los componentes del SI, pero sólo dentro de la organización.').m-auto
-
-    .row.mb-4(data-aos="fade-right")
-      .col-auto.px-4.py-3.bg-c3
-        h3.mb-0 Para procesar información
+    .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
+      .col-lg-auto
+        figure
+          img(src="@/assets/curso/tema1/img71.png" style="max-width: 60px").m-auto
+      .col
+        h3 Para procesar información
     .row.align-items-center.mb-5
       .col-auto(data-aos="fade-right")
         figure
@@ -621,9 +645,12 @@
                   .col
                     p.txt-c2 #[b Producir nueva información]
                     p.txt-c2 A partir de información(es) existente(s), este procesamiento permitirá la creación de nueva información, dicha información toma como base información ya analizada, pero se construye con el fin de suplir las necesidades organizacionales, se encamina hacia la búsqueda de diferentes soluciones, cuestionamientos, e intereses propios de la empresa.
-    .row.mb-4(data-aos="fade-right")
-      .col-auto.px-4.py-3.bg-c3
-        h3.mb-0 Transmitir las noticias
+    .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
+      .col-lg-auto
+        figure
+          img(src="@/assets/curso/tema1/img71.png" style="max-width: 60px").m-auto
+      .col
+        h3 Transmitir las noticias
     .cajon.color-primario.p-4(data-aos="fade-down")
       p.mb-0 Cualquiera que sea su origen o lo que representa, la información solo tiene valor si se comunica a los destinatarios correctos, en el momento adecuado y en una forma directamente utilizable.
     Separador
@@ -688,9 +715,12 @@
                   i.fas.fa-check-circle(style="color: #4ADBD1")
                   |
                   p.mb-0 La Biblioteca de infraestructura de tecnología de la información, proporciona una guía de mejores prácticas para la gestión de operaciones y sistemas en el centro de datos y la nube.
-    .row.mb-4(data-aos="fade-right")
-      .col-auto.px-4.py-3.bg-c3
-        h3.mb-0 El espectro de gestión de sistemas
+    .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
+      .col-lg-auto
+        figure
+          img(src="@/assets/curso/tema1/img71.png" style="max-width: 60px").m-auto
+      .col
+        h3 El espectro de gestión de sistemas
     .row.align-items-center.mb-5
       .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
         p La mayoría de las funciones comerciales involucran algún tipo de sistema de TI. Cada sistema o subsistema de TI debe funcionar de forma independiente y estar integrado con los subsistemas relacionados para garantizar el éxito del negocio.
@@ -699,9 +729,12 @@
       .col-lg-5(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema2/img31.png', style="width: 470px", alt='Imágen decorativa').m-auto
-    .row.mb-4(data-aos="fade-right")
-      .col-auto.px-4.py-3.bg-c3
-        h3.mb-0 Subsistemas de gestión de sistemas de TI
+    .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
+      .col-lg-auto
+        figure
+          img(src="@/assets/curso/tema1/img71.png" style="max-width: 60px").m-auto
+      .col
+        h3 Subsistemas de gestión de sistemas de TI
     p.mb-5(data-aos="fade-right") La infraestructura de TI consta de varios subsistemas que cumplen objetivos específicos, como la gestión de datos, la gestión de redes o el almacenamiento. Los subsistemas de TI trabajan juntos como parte del sistema de TI general. Es útil pensar en términos de subsistemas porque TI abarca una variedad de tecnologías. Especificar el subsistema ayuda a definir el contexto. Algunos ejemplos de subsistemas de TI son los siguientes:
     .row.justify-content-center.mb-5
       .col-10.col-lg-6.bg-c31(data-aos="fade-right")
@@ -716,9 +749,12 @@
             img(src='@/assets/curso/tema2/img20.svg', style="width: 170px", alt='Imágen decorativa').m-auto
           p.text-center #[b Gestión del ciclo de vida de los activos]
           p.text-center Esto implica todas las etapas de la vida del #[i hardware] y el #[i software], desde la planificación y la adquisición hasta el desmantelamiento y el retiro. El ciclo de vida de los activos de TI cubre las licencias de #[i software], desde los hipervisores hasta las aplicaciones comerciales, y el análisis del costo de los activos frente al valor o los ingresos generados.
-    .row.mb-4(data-aos="fade-right")
-      .col-auto.px-4.py-3.bg-c3
-        h3.mb-0 La gestión del ciclo de vida de los activos de TI
+    .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
+      .col-lg-auto
+        figure
+          img(src="@/assets/curso/tema1/img71.png" style="max-width: 60px").m-auto
+      .col
+        h3 La gestión del ciclo de vida de los activos de TI
     p.mb-5(data-aos="fade-right") La gestión del ciclo de vida de los activos de TI consta de cinco pasos: planificación, desarrollo o adquisición, integración, mantenimiento y actualización, y retiro.
     .row.mb-5
       .col-12.bg-c33
@@ -745,12 +781,13 @@
                       .p-5
                         p #[b Gestión del cambio]
                         p Este es un enfoque sistemático para enfrentar el cambio desde la perspectiva tanto de la organización como del individuo. La gestión de cambios garantiza que los cambios se aprueben y documenten, y mejora la capacidad de una empresa para adaptarse rápidamente.
-    .row.mb-5(data-aos="fade-right")
-      .col-auto.px-4.py-3.bg-c3
-        h3.mb-0 Lista de verificación de gestión de cambios
-
+    .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
+      .col-lg-auto
+        figure
+          img(src="@/assets/curso/tema1/img71.png" style="max-width: 60px").m-auto
+      .col
+        h3 Lista de verificación de gestión de cambios
     p.mb-5 Un plan de gestión del cambio comienza con la definición clara del proyecto y la visión de cuáles deberían ser los resultados.
-
     .row.bg-c34(data-aos="fade-left")
       .col-12
         .px-5
@@ -805,9 +842,12 @@
                 .col.bg-c36
                   .p-4
                     p.mb-0 #[b Gestión de datos:] esto determina cómo se crean, recuperan, actualizan y almacenan los datos en una organización. La gestión de datos también puede incluir copia de seguridad de datos y recuperación ante desastres.
-          .row.mb-4(data-aos="fade-right")
-            .col-auto.px-4.py-3.bg-c3
-              h3.mb-0 El proceso del ciclo de vida de los datos
+          .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
+            .col-lg-auto
+              figure
+                img(src="@/assets/curso/tema1/img71.png" style="max-width: 60px").m-auto
+            .col
+              h3 El proceso del ciclo de vida de los datos
     p.mb-5(data-aos="fade-right") La gestión del ciclo de vida de los datos divide dicho ciclo en siete pasos, los cuales se describen a continuación:
     .row.mb-5
       .col-12.bg-c18(data-aos="fade-right")
@@ -819,7 +859,7 @@
                   .row.m-1
                     .col-lg-8.mb-4.mb-lg-0
                       p.txt-c1.fs-5 #[b Gestión de la mesa de ayuda]
-                      p Esto implica informar y realizar un seguimiento a los problemas que han sido informados a mesa de ayuda, así como gestionar las resoluciones de esos problemas.
+                      p Esto implica informar y realizar un seguimiento a los problemas que han sido informados a la mesa de ayuda, así como gestionar las resoluciones de esos problemas.
                       p.mb-0 Entre ellos se encuentran problemas técnicos, de almacenamiento, de acceso, usuarios, etc.
                     .col-lg-4
                       figure
@@ -866,9 +906,12 @@
                     .col-lg-4
                       figure
                         img(src='@/assets/curso/tema2/img39.png', style="width: 450px", alt='Imágen decorativa').m-auto
-    .row.mb-4(data-aos="fade-right")
-      .col-auto.px-4.py-3.bg-c3
-        h3.mb-0 Retos de la gestión de sistemas
+    .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
+      .col-lg-auto
+        figure
+          img(src="@/assets/curso/tema1/img71.png" style="max-width: 60px").m-auto
+      .col
+        h3 Retos de la gestión de sistemas
     p.mb-5(data-aos="fade-right") La gestión de sistemas de TI implica muchos desafíos, entre ellos se encuentran:
     .row.justify-content-center.mb-5
       .col-lg-10(data-aos="fade-left")
@@ -912,14 +955,12 @@
               .row.justify-content-center.mb-3
                 .col-8
                   img(src='@/assets/curso/tema2/img23.svg' alt='AvatarTop')
-              p.text-white Aplicar habilidades de pensamiento crítico y análisis lógico para diseñar, implementar y evaluar soluciones basadas en computación para problemas comerciales complejos.
+              p Aplicar habilidades de pensamiento crítico y análisis lógico para diseñar, implementar y evaluar soluciones basadas en computación para problemas comerciales complejos.
             .tarjeta.color-acento-botones1.p-4
               .row.justify-content-center.mb-3
                 .col-8
                   img(src='@/assets/curso/tema2/img24.svg' alt='AvatarTop')
-              p Poseer certificaciones de la industria en áreas funcionales de informática, sistemas de información de gestión o gestión de proyectos.
-
-
+              p.text-white Poseer certificaciones de la industria en áreas funcionales de informática, sistemas de información de gestión o gestión de proyectos.
 
 </template>
 

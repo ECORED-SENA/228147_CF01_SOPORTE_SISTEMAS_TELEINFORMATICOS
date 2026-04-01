@@ -2,7 +2,6 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-
     p El presente componente formativo da a conocer las principales herramientas informáticas que se requieren actualmente para el óptimo funcionamiento de una organización, pues es innegable que las tecnologías de la información han cambiado la forma de hacer las cosas, por ende, es necesario adquirir los conocimientos necesarios para poder aplicarlas de manera eficaz en cualquier contexto del ser humano. 
     p.mb-5 Una breve revisión de los temas vistos, se encuentran en el siguiente esquema:
     .row.justify-content-center
