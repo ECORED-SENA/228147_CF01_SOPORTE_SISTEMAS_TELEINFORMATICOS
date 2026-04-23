@@ -54,7 +54,7 @@
         figure
           img(src="@/assets/curso/tema1/img71.png" style="max-width: 60px").m-auto
       .col
-        h3 Tipos de sistemas de Información en las organizaciones
+        h3 Tipos de sistemas de información en las organizaciones
     p.mb-5(data-aos="fade-right") Existen diferentes tipos de sistemas de información con funciones diferentes los cuales pueden ser utilizados según requerimientos organizacionales, a continuación, se presentan algunos:
     .tarjeta.tarjeta--azul.p-4(data-aos="fade-left")
       SlyderA(tipo="b")
@@ -118,7 +118,7 @@
       h2 1.1 Herramientas informáticas para la organización
     .row.align-items-center.mb-5
       .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
-        p Para comenzar a entender el tema de este componente formativo es importante aclarar lo siguiente: 
+        p Para comenzar a entender el tema de este componente formativo, es importante aclarar lo siguiente: 
         ul.lista-ul--color.lista-ul--separador.mb-0
           li.d-flex
             i.fas.fa-check-circle(style="color: #4ADBD1")
@@ -384,6 +384,12 @@
         .p-5
           .row.justify-content-center
             .col-lg-10(data-aos="fade-down")
+              .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
+                .col-lg-auto
+                  figure
+                    img(src="@/assets/curso/tema1/img71.png" style="max-width: 60px").m-auto
+                .col
+                  h3 Sistemas ERP
               PasosA.color-acento-contenido.mb-5(tipo="n")
                 .row.align-items-center
                   .col.mb-4.mb-lg-0
@@ -444,7 +450,7 @@
             figure.fig-p2
               img(src='@/assets/curso/tema1/img6.svg', style="width: 50px", alt='Imágen decorativa').m-auto
           .col-md-8.col-xl-7.bg-c5.p-5
-            p.text-white.mb-0 Es el proceso que da entre diferentes eslabones de en un proceso de producción, proveedores instalaciones de fabricación, distribuidores de los productos, los cuales trabajan en pro de garantizar la satisfacción del cliente.
+            p.text-white.mb-0 Es el proceso que da entre diferentes eslabones en un proceso de producción, proveedores instalaciones de fabricación, distribuidores de los productos, los cuales trabajan en pro de garantizar la satisfacción del cliente.
     .cajon.color-primario.p-4.mb-5(data-aos="fade-right")
       p.mb-0 Un sistema de gestión de la cadena de suministro (SCM) gestiona la interconexión entre estos eslabones, así como el inventario de los productos en sus distintas etapas de desarrollo.
     .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
@@ -615,7 +621,7 @@
               :style="{'background-image': `url(${require('@/assets/curso/tema1/img29.png')})`}"
             )
             .bloque-texto-g__texto.p-4
-              p.mb-0 Existen varios tipos de computadoras para computadoras portátiles, PC, servidores e incluso teléfonos inteligentes. Gracias a las computadoras, conceptos como los horarios de trabajo flexibles y las fuerzas de trabajo remotas se han vuelto posibles, lo que permite a los empleados trabajar desde donde quieran y en el momento que deseen.
+              p.mb-0 Existen varios tipos de computadoras: para computadoras portátiles, PC, servidores e incluso teléfonos inteligentes. Gracias a las computadoras, conceptos como los horarios de trabajo flexibles y las fuerzas de trabajo remotas se han vuelto posibles, lo que permite a los empleados trabajar desde donde quieran y en el momento que deseen.
                 br
                 br
                 | Revise a continuación las diversas funcionalidades que presentan las computadoras:
@@ -629,7 +635,7 @@
                   .row
                     .col-lg-8.mb-4.mb-lg-0
                       p.txt-c1.fs-5 #[b Para la comunicación]
-                      p Cuando se trata de establecer contacto con los clientes, las computadoras son una herramienta vital; también son fundamentales a la hora de mantener ese contacto. Este proceso de comunicación se da a través de correo electrónico, mensajería instantánea, Skype, #[i software] de colaboración, entre otras. 
+                      p Cuando se trata de establecer contacto con los clientes, las computadoras son una herramienta vital; también son fundamentales a la hora de mantener ese contacto. Este proceso de comunicación se da a través de correo electrónico, mensajería instantánea, Skype, #[i software] de colaboración, entre otros. 
                       p.mb-0 Además, una empresa necesita comunicarse con sus empleados, y las computadoras juegan un papel importante. En lugar de tener reuniones individuales, se puede enviar un correo electrónico o un mensaje en cualquier otra plataforma de comunicación aceptable. Esto ahorra tiempo y también mejora la comunicación interna de la empresa.
                     .col-lg-4
                       figure
@@ -638,7 +644,7 @@
                     .col-lg-8.mb-4.mb-lg-0
                       p.txt-c1.fs-5 #[b Para la comercialización]
                       p Las computadoras permiten que una empresa pueda posicionarse, el equipo de desarrolladores de TI de una empresa puede crear un sitio web profesional completo con gráficos atractivos y contenido como texto, imágenes y videos. Pueden hacer optimización de motor de búsqueda (SEO) que le permita ser reconocida por el público objetivo.
-                      p.mb-0 Con una computadora, una empresa puede crear, ejecutar o adquirir campañas de #[i marketing] completas que abarcan todas las plataformas de redes sociales en Internet, ¡La computadora es probablemente el mejor dispositivo de #[i marketing] jamás construido!
+                      p.mb-0 Con una computadora, una empresa puede crear, ejecutar o adquirir campañas de #[i marketing] completas que abarcan todas las plataformas de redes sociales en Internet, ¡la computadora es probablemente el mejor dispositivo de #[i marketing] jamás construido!
                     .col-lg-4
                       figure
                         img(src='@/assets/curso/tema1/img41.svg', style="width: 450px", alt='Imágen decorativa').m-auto
@@ -751,7 +757,7 @@
         .cajon.color-primario.p-4.mb-3
           p.mb-0 Con más innovación en tecnología, se crean nuevos negocios, con más negocios, la tecnología viene al rescate facilitando las cosas. Los dos existen en una especie de relación simbiótica que asegura que siempre coexistirán. El negocio ha existido desde tiempos prehistóricos. Puede haber comenzado con nada más que el comercio de trueque, si hay que creer en los libros de historia, pero desde entonces se ha transformado en algo mucho más complejo, y nada de eso habría sido posible sin la tecnología.
         p Las principales industrias del mundo colapsarían si la existencia y el uso de la tecnología de la información fueran arrebatados repentinamente a las empresas. Esto se debe a que la mayoría de las transacciones y operaciones comerciales no se pueden realizar en el siglo XXI sin tecnología. 
-        p.mb-0 Revise puntualmente la función de la tecnología en las organizaciones:
+        p.mb-0 Revise puntualmente la función de la tecnología en las organizaciones que se describen a continuación:
       .col-lg-4(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema1/img31.png', style="width: 450px", alt='Imágen decorativa').m-auto
@@ -839,7 +845,7 @@
               figure
                 img(src='@/assets/curso/tema1/img63.svg', style="width: 230px", alt='Imágen decorativa').m-auto
             .col-lg-7
-              p.mb-0 Esto es en realidad un efecto negativo de la tecnología. Con una mayor conectividad, las personas tienen cada vez menos tiempo para sí mismas. Las vacaciones parecen haberse convertido en algo del pasado, Siempre se puede acceder a los correos electrónicos, mensajes de texto y redes sociales a través de los teléfonos y computadoras, cada vez es más difícil desconectarse.
+              p.mb-0 Esto es en realidad un efecto negativo de la tecnología. Con una mayor conectividad, las personas tienen cada vez menos tiempo para sí mismas. Las vacaciones parecen haberse convertido en algo del pasado. Siempre se puede acceder a los correos electrónicos, mensajes de texto y redes sociales a través de los teléfonos y computadoras, cada vez es más difícil desconectarse.
       .col-lg-4(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema1/img56.svg', style="width: 430px", alt='Imágen decorativa').m-auto

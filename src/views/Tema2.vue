@@ -87,7 +87,7 @@
           img(src='@/assets/curso/tema2/img1.svg', style="width: 270px", alt='Imágen decorativa').m-auto
       .col-lg-9(data-aos="fade-left")
         .cajon.color-acento-contenido.p-4
-          p.mb-0 El #[i hardware] de la computadora es prácticamente inútil sin el #[i software]. Los #[i software] son los programas que se necesitan para realizar las actividades de entrada, procesamiento, salida, almacenamiento y control de los sistemas de información. El #[i software] generalmente se clasifica en dos tipos principales de programas: #[i software] de sistema y #[i software] de aplicación:
+          p.mb-0 El #[i hardware] de la computadora es prácticamente inútil sin el #[i software]. Los #[i software] son los programas que se necesitan para realizar las actividades de entrada, procesamiento, salida, almacenamiento y control de los sistemas de información. El #[i software] generalmente se clasifica en dos tipos principales de programas: #[i software] de sistema y #[i software] de aplicación.
     .row.bg-c22.mb-5
       .col-12
         .px-5
@@ -253,7 +253,7 @@
                         img(src='@/assets/curso/tema2/img14.png', style="width: 450px", alt='Imágen decorativa').m-auto
                   .row.m-1
                     .col-lg-8.mb-4.mb-lg-0
-                      p Windows NT: sistema operativo de red multitarea.
+                      p.txt-c1.fs-5 #[b Windows NT: sistema operativo de red multitarea]
                       ul.lista-ul--color
                         li.d-flex
                           i.fas.fa-check-circle(style="color: #4ADBD1")
@@ -483,7 +483,7 @@
                 i.fas.fa-check-circle(style="color: #4ADBD1")
                 |
                 p.mb-0 Lenguajes orientados a objetos.
-            p  En el siguiente documento podrá profundizar en cada uno de ellos:
+            p  En el siguiente documento podrá profundizar en cada uno de ellos.
             .tarjeta.color-primario.p-3
               .row.justify-content-around.align-items-center
                 .col-3.col-sm-2.col-lg-1
@@ -582,7 +582,7 @@
           img(src='@/assets/curso/tema2/img29.png', style="width: 350px", alt='Imágen decorativa').m-auto
       .col-lg-9(data-aos="fade-left")
         .cajon.color-primario.p-4
-          p.mb-0 Por lo tanto, la información se recopila y almacena en archivos o en lo que se denomina una base de datos (o BDD). El archivo es una colección, un conjunto de datos reunidos bajo el mismo nombre. Técnicamente, es información digital compuesta por una secuencia de bytes, es decir, una secuencia de números. La base de datos (BDD) es una estructura de almacenamiento de información que toma la forma de grandes tablas, como una tabla de Excel. Cada columna se utiliza para ordenar un tipo de datos y cada fila representa un registro y, por ende, puede encontrar en la columna el número del contacto, su nombre, su nombre, su función y su número de teléfono. Cada línea representa un registro.
+          p.mb-0 Por lo tanto, la información se recopila y almacena en archivos o en lo que se denomina una base de datos (o BDD). El archivo es una colección, un conjunto de datos reunidos bajo el mismo nombre. Técnicamente, es información digital compuesta por una secuencia de bytes, es decir, una secuencia de números. La base de datos (BDD) es una estructura de almacenamiento de información que toma la forma de grandes tablas, como una tabla de Excel. Cada columna se utiliza para ordenar un tipo de datos y cada fila representa un registro y, por ende, puede encontrar en la columna el número del contacto, su nombre, su función y su número de teléfono. Cada línea representa un registro.
     .caja-titulos-tercer-nivel.mb-5(data-aos="fade-right")
       .col-lg-auto
         figure
