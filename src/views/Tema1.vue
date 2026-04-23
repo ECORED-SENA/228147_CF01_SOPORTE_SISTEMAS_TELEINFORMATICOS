@@ -971,7 +971,7 @@
           img(src="@/assets/curso/tema1/img71.png" style="max-width: 60px").m-auto
       .col
         h3 ¿Cómo usar las herramientas informáticas de manera adecuada?
-    p.mb-5(data-aos="fade-right") Usar correctamente las herramientas informáticas puede ayudar a la empresa a ser más organizada y mucho más eficiente; a continuación, algunas estrategias: Prueba
+    p.mb-5(data-aos="fade-right") Usar correctamente las herramientas informáticas puede ayudar a la empresa a ser más organizada y mucho más eficiente; a continuación, algunas estrategias:
     .row.justify-content-center
       .col-lg-8(data-aos="fade-left")
         .tarjeta.color-primario.p-3
