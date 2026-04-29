@@ -931,7 +931,7 @@
             p.mb-0 A medida que los sistemas cambian y se vuelven más complejos, es difícil garantizar que el #[i software] de todos los subsistemas esté actualizado. Las actualizaciones de #[i software] pueden causar problemas de compatibilidad y las actualizaciones perdidas pueden crear vulnerabilidades de seguridad.
           .tarjeta.color-secundario.p-3(x="95%" y="52%" numero="+")
             p.mb-0 El personal de TI y los administradores de sistemas deben comprender cómo las herramientas de administración de sistemas se integran entre sí y con la infraestructura existente. Capacitar al personal para hacer esto requiere tiempo y recursos.
-    p.mb-5(data-aos="fade-down") En resumen, las organizaciones deben planificar, coordinar y dirigir sus actividades haciendo usos de las TI, esto permitirá cumplir con los objetivos establecidos, por lo tanto, es necesario que:
+    p.mb-5(data-aos="fade-down") En resumen, las organizaciones deben planificar, coordinar y dirigir sus actividades haciendo uso de las TI, esto permitirá cumplir con los objetivos establecidos, por lo tanto, es necesario que:
     .row.bg-c22(data-aos="fade-right")
       .col-12
         .px-5
